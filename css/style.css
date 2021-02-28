@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@font-face {
+    font-family: 'VT323';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/CursedTimerUlil-Aznm.ttf');
+}
+
+body {
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    /* font-family: 'VT323'; */
+    font-family: 'Orbitron',
+    sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 0px rgba(8,230,255,100), -1px -1px 0px rgba(255,0,0,100);
+}
+.container {
+    text-align: center;
+    margin:20px;
+}
+#center {     
+    text-align: center;          
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    color: #000;
+}
+.socials-link {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 30%;
+}
+.nickname {
+    font-size: 60px;
+}
+.hide {
+    display: none;
+}
+.display {
+    cursor: pointer;
+}
+.date {
+    display: block;
+    font-size: 12px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
